@@ -309,6 +309,7 @@ PRODUCT_PACKAGES += \
     libC2D2 \
     libCB \
     libI420colorconvert \
+    libOmxVpp \
     libOpenCL \
     libQSEEComAPI \
     libVkLayer_q3dtools \
@@ -351,7 +352,6 @@ PRODUCT_PACKAGES += \
     libpvr \
     libqcbor \
     libqcci_legacy \
-    libqcodec2 \
     libqdi \
     libqdp \
     libqmi \
@@ -876,7 +876,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor.qti.media.c2@1.0-service \
     ims_rtp_daemon \
     imsdatadaemon \
     imsqmidaemon \
