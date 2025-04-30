@@ -350,7 +350,6 @@ PRODUCT_PACKAGES += \
     libhdcp1prov \
     libhdcp2p2prov \
     libhdcpsrm \
-    libhwdaphal \
     libidl \
     libllvm-glnext \
     libllvm-qcom \
