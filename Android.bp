@@ -6770,7 +6770,7 @@ cc_prebuilt_library_shared {
                 "libvidhance",
                 "libutils",
                 "libcutils",
-                "libui",
+                "libui-v34",
                 "libsensorslog",
                 "liblog",
                 "libc++",
