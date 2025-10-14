@@ -93,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/violet/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/xiaomi/violet/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/xiaomi/violet/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
-    vendor/xiaomi/violet/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/xiaomi/violet/proprietary/vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-sscrpc-service.rc \
     vendor/xiaomi/violet/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/xiaomi/violet/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
@@ -328,8 +327,6 @@ PRODUCT_PACKAGES += \
     libcdsp_default_listener \
     libcdsprpc \
     libcpion \
-    libdapparamstorage \
-    libdeccfg \
     libdiag \
     libdrmfs \
     libdsutils \
@@ -366,10 +363,7 @@ PRODUCT_PACKAGES += \
     librmp \
     libsdsprpc \
     libspl \
-    libstagefright_soft_ac4dec \
-    libstagefright_soft_ddpdec \
     libstagefright_soft_qtiflacdec \
-    libstagefrightdolby \
     libvppclient \
     libvpphvx \
     libvpplibrary \
@@ -377,10 +371,6 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvdrmengine \
     libasphere \
-    libswdap \
-    libswgamedap \
-    libswvqe \
-    vendor.dolby.hardware.dms@2.0 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
@@ -566,7 +556,6 @@ PRODUCT_PACKAGES += \
     libdataitems \
     libdisp-aba \
     libdisplayqos \
-    libdlbdsservice \
     libdpmqmihal \
     libdrmtime \
     libdsi_netctrl \
@@ -679,7 +668,6 @@ PRODUCT_PACKAGES += \
     qtibus \
     qtimutex \
     sensors.ssc \
-    vendor.dolby.hardware.dms@2.0-impl \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
@@ -869,7 +857,6 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service-qti \
     android.hardware.sensors@2.0-service \
     qcrild \
-    vendor.dolby.hardware.dms@2.0-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
@@ -902,8 +889,7 @@ PRODUCT_PACKAGES += \
     thermal-engine \
     time_daemon \
     xtra-daemon \
-    dpmd \
-    vendor.dolby_v3_6.hardware.dms360@2.0-service
+    dpmd
 
 PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
