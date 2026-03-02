@@ -340,6 +340,7 @@ PRODUCT_PACKAGES += \
     libmdsprpc \
     libminkdescriptor \
     libmm-hdcpmgr \
+    libmmosal_vendor \
     liboemcrypto \
     libops \
     libqcbor \
@@ -359,11 +360,16 @@ PRODUCT_PACKAGES += \
     librmp \
     libsdsprpc \
     libspl \
+    libvpphvx \
+    libvpplibrary \
     libwvhidl \
     libwvdrmengine \
     libasphere \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
+    vendor.qti.hardware.vpp@1.1 \
+    vendor.qti.hardware.vpp@1.2 \
+    vendor.qti.hardware.vpp@1.3 \
     vendor.qti.qspmhal@1.0 \
     btaudio_offload_if \
     audio.bluetooth_qti.default \
@@ -380,12 +386,12 @@ PRODUCT_PACKAGES += \
     libgcs-osal \
     libgcs \
     liblistensoundmodel2 \
-    libmmosal_vendor \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
     libqcodec2 \
     libsmwrapper \
     libsurround_3mic_proc \
+    libvppclient \
     libqcbassboost \
     libqcreverb \
     libqcvirt \
@@ -649,10 +655,6 @@ PRODUCT_PACKAGES += \
     libtinyxml2_1 \
     libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1 \
     libvidhance \
-    libvppclient \
-    libvpphvx \
-    libvpplibrary \
-    libvpptestutils \
     libwms \
     libwqe \
     libxml \
@@ -728,9 +730,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
     vendor.qti.hardware.soter@1.0 \
     vendor.qti.hardware.tui_comm@1.0 \
-    vendor.qti.hardware.vpp@1.1 \
-    vendor.qti.hardware.vpp@1.2 \
-    vendor.qti.hardware.vpp@1.3 \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0 \
     vendor.qti.ims.factory@1.0 \
@@ -887,6 +886,7 @@ PRODUCT_PACKAGES += \
     tftp_server \
     thermal-engine \
     time_daemon \
+    vppservice \
     xtra-daemon \
     dpmd
 
