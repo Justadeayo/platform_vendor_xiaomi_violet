@@ -5948,6 +5948,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/camera/components/com.vidhance.node.eis.so",
             ],
             shared_libs: [
+                "libcomparetf2_shim",
                 "libcomparetf2",
                 "libdemangle",
                 "libcamera_metadata",
@@ -5984,6 +5985,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libcomparetf2",
+                "libcomparetf2_shim",
                 "libcutils",
                 "liblog",
                 "libsync",
