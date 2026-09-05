@@ -1,0 +1,14 @@
+name: Import Branch
+on: workflow_dispatch
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: |
+          git remote add space https://github.com/sksifat-4/vendor_xiaomi_violet
+          git fetch device 17
+          git checkout -b seventeen space/17
+          git push origin seventeen
