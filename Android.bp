@@ -17325,10 +17325,3 @@ cc_prebuilt_library_shared {
     soc_specific: true,
     relative_install_path: "soundfx",
 }
-
-prebuilt_etc {
-    name: "audio_effects.xml",
-    owner: "viper",
-    src: "proprietary/vendor/etc/audio_effects.xml",
-    soc_specific: true,
-}

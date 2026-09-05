@@ -305,7 +305,6 @@ PRODUCT_PACKAGES += \
     eglSubDriverAndroid \
     ViPER4AndroidRE \
     libv4a_aidl \
-    audio_effects.xml \
     libEGL_adreno \
     libGLESv1_CM_adreno \
     libGLESv2_adreno \
