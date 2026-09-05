@@ -17295,3 +17295,40 @@ install_symlink {
     installed_location: "lib64/libq3dtools_adreno.so",
     symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
 }
+
+android_app_import {
+    name: "ViPER4AndroidRE",
+    owner: "viper",
+    apk: "proprietary/product/priv-app/ViPER4AndroidRE/ViPER4Android-2.0.5.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libv4a_aidl",
+    owner: "viper",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libv4a_aidl.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+    relative_install_path: "soundfx",
+}
+
+prebuilt_etc {
+    name: "audio_effects.xml",
+    owner: "viper",
+    src: "proprietary/vendor/etc/audio_effects.xml",
+    soc_specific: true,
+}
