@@ -812,7 +812,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants-V2.1-java \
     dpmapi \
     qcrilhook \
-    qti-telephony-common \
     vendor.qti.hardware.data.cne.internal.api-V1.0-java \
     vendor.qti.hardware.data.cne.internal.constants-V1.0-java \
     vendor.qti.hardware.data.connection-V1.0-java \
